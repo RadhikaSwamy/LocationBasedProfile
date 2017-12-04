@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Done"
+        android:icon="@android:drawable/ic_menu_save"
+        android:visible="true"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:id="@+id/done"/>
+
+    <item
+        android:title="Cancel"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:visible="true"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:id="@+id/cancel"/>
+</menu>
